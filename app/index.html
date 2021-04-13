@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en" xml:lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="description" content="" />
@@ -10,6 +10,7 @@
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css" />
     <link rel="stylesheet" href="styles/pieton.css" />
+    <link rel="stylesheet" href="styles/grid.css" />
     <!-- endbuild -->
   </head>
   <body>
@@ -20,83 +21,113 @@
         your experience.
       </p>
     <![endif]-->
-    <h1>pi&eacute;ton</h1>
-    <dl>
-      <dt class="pieton-blue-fg pieton-near-black-bg">blues</dt>
-      <!-- blue -->
-      <dl>
-        <dt>&period;pieton&hyphen;blue&hyphen;&lbrace;fg&comma;bg&rbrace;</dt>
-        <dd>&num;0071BB</dd>
+    <main class="grid-container">
+      <h1 class="row-1-1 full-width">pi&eacute;ton</h1>
+      <dl class="full-width grid-container">
+        <dt class="row-1-1 full-width pieton-blue-light-fg pieton-near-black-bg">blues</dt>
+        <!-- blue -->
+        <dd class="row-2-1 column-1-2 pieton-blue-bg pieton-near-white-fg">
+          <div>
+              <code>&period;pieton&hyphen;blue&hyphen;&lbrace;fg&comma;bg&rbrace;</code>
+              <code>&num;0071BB</code>
+          </div>
+        </dd>
+        <!-- dark blue -->
+        <dd class="row-2-1 column-3-2 pieton-blue-dark-bg pieton-red-light-fg">
+          <div>
+            <code>&period;pieton&hyphen;blue&hyphen;dark&hyphen;&lbrace;fg&comma;bg&rbrace;</code>
+            <code>&num;1D185C</code>
+          </div>
+        </dd>
+        <!-- light blue-->
+        <dd class="row-2-1 column-5-2 pieton-blue-light-bg pieton-red-dark-fg">
+          <div>
+            <code>&period;pieton&hyphen;blue&hyphen;light&hyphen;&lbrace;fg&comma;bg&rbrace;</code>
+            <code>&num;AAFFFF</code>
+          </div>
+        </dd>
+        <dt class="row-3-1 full-width pieton-red-light-fg pieton-near-black-bg">reds</dt>
+        <!-- red -->
+        <dd class="row-4-1 column-1-2 pieton-red-bg pieton-near-white-fg">
+          <div>
+            <code>&period;pieton&hyphen;red&hyphen;&lbrace;fg&comma;bg&rbrace;</code>
+            <code>&num;E51A24</code>
+          </div>
+        </dd>
+        <!-- dark red -->
+        <dd class="row-4-1 column-3-2 pieton-red-dark-bg pieton-blue-light-fg">
+          <div>
+            <code>&period;pieton&hyphen;red&hyphen;dark&hyphen;&lbrace;fg&comma;bg&rbrace;</code>
+            <code>&num;971707</code>
+          </div>
+        </dd>
+        <!-- light red-->
+        <dd class="row-4-1 column-5-2 pieton-red-light-bg pieton-blue-dark-fg">
+          <div>
+            <code>&period;pieton&hyphen;red&hyphen;light&hyphen;&lbrace;fg&comma;bg&rbrace;</code>
+            <code>&num;FF6395</code>
+          </div>
+        </dd>
+        <dt class="row-5-1 full-width pieton-yellow-fg pieton-near-black-bg">yellows</dt>
+        <!-- yellow -->
+        <dd class="row-6-1 column-1-2 pieton-yellow-bg pieton-near-black-fg">
+          <div>
+            <code>&period;pieton&hyphen;yellow&hyphen;&lbrace;fg&comma;bg&rbrace;</code>
+            <code>&num;F6EA03</code>
+          </div>
+        </dd>
+        <!-- dark yellow-->
+        <dd class="row-6-1 column-3-2 pieton-yellow-dark-bg pieton-near-white-fg">
+          <div>
+            <code>&period;pieton&hyphen;yellow&hyphen;dark&hyphen;&lbrace;fg&comma;bg&rbrace;</code>
+            <code>&num;717A04</code>
+          </div>
+        </dd>
+        <!-- light yellow-->
+        <dd class="row-6-1 column-5-2 pieton-yellow-light-bg pieton-blue-fg">
+          <div>
+            <code>&period;pieton&hyphen;yellow&hyphen;&lbrace;fg&comma;bg&rbrace;</code>
+            <code>&num;F9FF7F</code>
+          </div>
+        </dd>
+        <dt class="row-7-1 full-width pieton-near-white-fg pieton-near-black-bg">achromatic</dt>
+        <!-- near-black -->
+        <dd class="row-8-1 column-1-2 pieton-near-black-bg pieton-near-white-fg">
+          <div>
+            <code>&period;pieton&hyphen;near&hyphen;black&hyphen;&lbrace;fg&comma;bg&rbrace;</code>
+            <code>&num;00000F</code>
+          </div>
+        </dd>
+        <!-- near-white -->
+        <dd class="row-8-1 column-3-2 pieton-near-white-bg pieton-near-black-fg">
+          <div>
+            <code>&period;pieton&hyphen;near&hyphen;white&hyphen;&lbrace;fg&comma;bg&rbrace;</code>
+            <code>&num;FFFFF0</code>
+          </div>
+        </dd class="row-8-1">
+        <!-- gray -->
+        <dd class="row-8-2 column-5-2 pieton-gray-bg pieton-blue-dark-fg">
+          <div>
+            <code>&period;pieton&hyphen;gray&hyphen;&lbrace;fg&comma;bg&rbrace;</code>
+            <code>&num;A0A0A0</code>
+          </div>
+        </dd class="row-8-1">
+        <!-- dark gray -->
+        <dd class="row-9-1 column-1-2 pieton-gray-dark-bg pieton-near-white-fg">
+          <div>
+            <code>&period;pieton&hyphen;gray&hyphen;dark&hyphen;&lbrace;fg&comma;bg&rbrace;</code>
+            <code>&num;555555</code>
+          </div>
+        </dd>
+        <!-- light gray -->
+        <dd class="row-9-1 column-3-2 pieton-gray-light-bg pieton-near-black-fg">
+          <div>
+            <code>&period;pieton&hyphen;gray&hyphen;light&hyphen;&lbrace;fg&comma;bg&rbrace;</code>
+            <code>&num;D8D8D8</code>
+          </div>
+        </dd>
       </dl>
-      <!-- dark blue -->
-      <dl>
-        <dt>&period;pieton&hyphen;blue&hyphen;dark&hyphen;&lbrace;fg&comma;bg&rbrace;</dt>
-        <dd>&num;1D185C</dd>
-      </dl>
-      <!-- light blue-->
-      <dl>
-        <dt>&period;pieton&hyphen;blue&hyphen;light&hyphen;&lbrace;fg&comma;bg&rbrace;</dt>
-        <dd>&num;AAFFFF</dd>
-      </dl>
-      <dt class="pieton-red-fg pieton-near-black-bg">reds</dt>
-      <!-- red -->
-      <dl>
-        <dt>&period;pieton&hyphen;red&hyphen;&lbrace;fg&comma;bg&rbrace;</dt>
-        <dd>&num;E51A24</dd>
-      </dl>
-      <!-- dark red -->
-      <dl>
-        <dt>&period;pieton&hyphen;red&hyphen;dark&hyphen;&lbrace;fg&comma;bg&rbrace;</dt>
-        <dd>&num;971707</dd>
-      </dl>
-      <!-- light red-->
-      <dl>
-        <dt>&period;pieton&hyphen;red&hyphen;light&hyphen;&lbrace;fg&comma;bg&rbrace;</dt>
-        <dd>&num;FF6395</dd>
-      </dl>
-      <dt class="pieton-yellow-fg pieton-near-black-bg">yellows</dt>
-      <!-- yellow -->
-      <dl>
-        <dt>&period;pieton&hyphen;yellow&hyphen;&lbrace;fg&comma;bg&rbrace;</dt>
-        <dd>&num;F6EA03</dd>
-      </dl>
-      <!-- dark yellow-->
-      <dl>
-        <dt>&period;pieton&hyphen;yellow&hyphen;dark&hyphen;&lbrace;fg&comma;bg&rbrace;</dt>
-        <dd>&num;717A04</dd>
-      </dl>
-      <!-- light yellow-->
-      <dl>
-        <dt>&period;pieton&hyphen;yellow&hyphen;&lbrace;fg&comma;bg&rbrace;</dt>
-        <dd>&num;F9FF7F</dd>
-      </dl>
-      <dt class="pieton-near-white-fg pieton-near-black-bg">achromatic</dt>
-      <!-- near-black -->
-      <dl>
-        <dt>&period;pieton&hyphen;near&hyphen;black&hyphen;&lbrace;fg&comma;bg&rbrace;</dt>
-        <dd>&num;00000F</dd>
-      </dl>
-      <!-- near-white -->
-      <dl>
-        <dt>&period;pieton&hyphen;near&hyphen;white&hyphen;&lbrace;fg&comma;bg&rbrace;</dt>
-        <dd>&num;FFFFF0</dd>
-      </dl>
-      <!-- gray -->
-      <dl>
-        <dt>&period;pieton&hyphen;gray&hyphen;&lbrace;fg&comma;bg&rbrace;</dt>
-        <dd>&num;A0A0A0</dd>
-      </dl>
-      <!-- dark gray -->
-      <dl>
-        <dt>&period;pieton&hyphen;gray&hyphen;dark&hyphen;&lbrace;fg&comma;bg&rbrace;</dt>
-        <dd>&num;555555</dd>
-      </dl>
-      <!-- light gray -->
-      <dl>
-        <dt>&period;pieton&hyphen;gray&hyphen;light&hyphen;&lbrace;fg&comma;bg&rbrace;</dt>
-        <dd>&num;D8D8D8</dd>
-      </dl>
-    </dl>
+    </main>
     <!-- build:js scripts/vendor.js -->
     <!-- endbuild -->
     <!-- build:js scripts/main.js -->
