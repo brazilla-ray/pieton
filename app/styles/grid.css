@@ -1,10 +1,12 @@
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, 50px);
-  grid-template-rows: repeat(10, 100px);
+  grid-template-rows: repeat(10, 150px);
   row-gap: 0;
 }
 
+/* grid system */
+/*#region*/
 .row-1-1 {
   grid-row: 1 / span 1;
 }
@@ -804,6 +806,8 @@
 .column-10-10 {
   grid-column: 10 / span 10;
 }
+/*#endregion*/
+
 .full-width {
   grid-column: 1 / -1;
 }
