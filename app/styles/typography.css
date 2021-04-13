@@ -1,0 +1,16 @@
+body {
+  font-family: 'Alata', sans-serif;
+  font-size: 16px;
+}
+
+code {
+  font-family: 'Alata', sans-serif;
+}
+
+.title-lg {
+  font-size: 6rem;
+}
+
+.title-md {
+  font-size: 3rem;
+}
