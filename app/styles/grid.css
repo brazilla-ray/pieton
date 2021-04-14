@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, 50px);
   grid-template-rows: repeat(10, 100px);
-  row-gap: 0;
+    gap: 0.5rem;
 }
 
 /* grid system */
