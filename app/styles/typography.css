@@ -3,6 +3,10 @@ body {
   font-size: 16px;
 }
 
+code {
+  font-size: 0.75rem;
+}
+
 .title-lg {
   font-size: 6rem;
 }
