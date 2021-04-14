@@ -13,7 +13,12 @@
 }
 
 body {
-  background: #fafafa;
+  background: linear-gradient(var(--pieton-blue) 50%, var(--pieton-near-white) 0);
+  background-size: 100% 1rem;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #333;
+}
+
+main {
+  width: calc(100vw - 1rem);
 }
