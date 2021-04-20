@@ -3,6 +3,7 @@
   grid-template-columns: repeat(6, minmax(50px, 1fr));
   grid-template-rows: repeat(11, 100px);
   gap: 0.5rem;
+  margin-right: 1em;
 }
 
 /* grid system */
@@ -815,6 +816,5 @@
 @media screen and (min-width: 376px) {
     .grid-container {
       grid-template-columns: repeat(6 , minmax(50px, 200px));
-      margin-right: 1em;
     }
 }
