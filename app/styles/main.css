@@ -27,6 +27,12 @@ nav {
   width: 5rem;
 }
 
+.links {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
 @media screen and (min-width: 376px) {
   main {
     width: 85%;
