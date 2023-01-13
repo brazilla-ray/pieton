@@ -1,15 +1,16 @@
-# pi&eacute;ton  
+# pi&eacute;ton
 
-[Pi&eacute;ton](https://www.collinsdictionary.com/us/dictionary/french-english/pi%C3%A9ton) is a CSS color system that's bright and accessible.
+[Pi&eacute;ton](https://w0whitaker.github.io/pieton/) is a CSS color system that's bright and accessible.
 
-## Usage  
+## Usage
 
 In general, light colors over dark, and dark over light will yield the most accessible combinations.  
-Each color has a `-fg` and a `-bg` modifier to use as a foreground or background color, respectively.  
+Each color has a `-fg` and a `-bg` modifier to use as a foreground or background color, respectively.
 
-## Examples  
+## Examples
 
 ### Yellow text on a black background.
+
 ```html
 <section class="pieton-yellow-fg pieton-near-black-bg">
   walking is cool, don't let anyone tell you different.
@@ -17,8 +18,7 @@ Each color has a `-fg` and a `-bg` modifier to use as a foreground or background
 ```
 
 ### Blue text; no background specified.
+
 ```html
-<a href="#" class="pieton-blue-fg">
-  link
-</a>
+<a href="#" class="pieton-blue-fg"> link </a>
 ```
